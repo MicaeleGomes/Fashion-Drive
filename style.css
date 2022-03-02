@@ -1,0 +1,166 @@
+header {
+    font-family: 'New Rocker', cursive;
+    background-color: #404EED;
+    height: 89px;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+
+main {
+    display: flex;
+    background-color: #404EED;
+}
+
+.esquerda {
+    background-color: #fff;
+    width: 695px;
+}
+
+.direita {
+    margin: 0 auto;
+}
+.modelos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 60px;
+    
+}
+
+.modelo {
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-start;
+}
+
+.mr {
+    
+    margin-right: 40px;
+}
+
+.modelo h2 {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.img-tecido, 
+.img-gola,
+.img-modelo {
+    border: 0.5px solid #c4c4c4;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.img-tecido img {
+    padding: 20px;
+}
+
+.img-gola img {
+    padding: 22.5px 10px;
+}
+
+.img-modelo img {
+    padding: 10px;
+}
+
+h3 {
+    margin-top: 33px;
+    margin-left: 50px;
+    margin-bottom: 9.27px;
+    font-style: Roboto;
+    font-size: 18px;
+    font-family: Roboto;
+    line-height: 21px;
+}
+
+.link-de-referencia {
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: #f2f2f2;
+    width: 396px;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 15.73px;
+    border: none;
+}
+
+.botao-confirmar {
+    border-radius: 10px;
+    margin-top: 23.76px;
+    margin-left: 50px;
+    background-color: #c4c4c4;
+    width: 415px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #f2f2f2;
+}
+
+h4 {
+    padding: 30.57px 0 15.21px 121.99px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+
+color: #232323;
+
+}
+
+.ultimos-pedidos {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-bottom: 31.76px;
+}
+
+.pedido {
+    background-color: #fff;
+    border-radius: 10px; 
+    Width: 201,69px;
+    Height: 236,47px;
+}
+
+.pedido1 {
+    background-color: #fff;
+    border-radius: 15px; 
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+}
+
+h5 {
+    text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-size: 18px;
+padding: 7.94px 0 9.31px 0;
+}
+
+h6 {
+    text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-size: 18px;
+padding: 25px 0 9.31px 0;
+
+}
+
+.escolha-modelo {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px; color: blue;}
+

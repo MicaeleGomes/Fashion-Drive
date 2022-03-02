@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Recuperação</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./assets/imagens/Logo.png" alt="Logo">
+    </header>
+
+    <main>
+        <div class="esquerda">
+            <div class="modelos">
+                <h2>Escolha o modelo</h2>
+                <div class="modelo">
+                    <div class="tshirt mr" onclick="escolhaModelo(this)">
+                        <div class="img-modelo"> 
+                            <img src="./assets/imagens/tshirt.png" width="80px" height="80px" alt="tshirt">
+                        </div>
+                        <h2>Tshirt</h2>
+                    </div>
+                    <div class="camiseta mr" onclick="escolhaModelo(this)">
+                        <div class="img-modelo">
+                            <img src="./assets/imagens/Camiseta.png" width="80px" height="80px" alt="Camiseta">
+                        </div>
+                        <h2>Camiseta</h2>
+                    </div>
+                    <div class="manga-longa mr" onclick="escolhaModelo(this)">
+                        <div class="img-modelo">
+                            <img src="./assets/imagens/Mangalonga.png" width="80px" height="80px" alt="Manga Longa">
+                        </div>
+                        <h2>Manga Longa</h2>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="modelos">
+                <h2>Escolha a gola</h2>
+                <div class="modelo">
+                    <div class="gola-v mr" onclick="escolhaGola(this)">
+                        <div class="img-gola">
+                            <img src="./assets/imagens/GolaV.png" width="80px" height="55px" alt="Gola V">
+                        </div>
+                        <h2>Gola V</h2>
+                    </div>
+                    <div class="gola-redonda mr" onclick="escolhaGola(this)"> 
+                        <div class="img-gola">
+                            <img src="./assets/imagens/GolaRedonda.png" width="80px" height="55px" alt="Gola Redonda">
+                        </div>
+                        <h2>Gola Redonda</h2>
+                    </div>
+                    <div class="gola-polo mr" onclick="escolhaGola(this)">
+                        <div class="img-gola">
+                            <img src="./assets/imagens/GolaPolo.png" width="80px" height="55px" alt="Gola Polo">
+                        </div>
+                        <h2>Gola Polo</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="modelos">
+                <h2>Escolha o tecido</h2>
+                <div class="modelo">
+                    <div class="seda mr" onclick="escolhaTecido(this)"> 
+                        <div class="img-tecido">
+                            <img src="./assets/imagens/Seda.png" width="54px" height="54px" alt="Seda">
+                        </div>
+                        <h2>Seda</h2>
+                    </div>
+                    <div class="algodao mr" onclick="escolhaTecido(this)">
+                        <div class="img-tecido">
+                            <img src="./assets/imagens/Algodão.png" width="60px" height="60px" alt="Algodão">
+                        </div>
+                        <h2>Algodão</h2>
+                    </div>
+                    <div class="poliester mr" onclick="escolhaTecido(this)">
+                        <div class="img-tecido">
+                            <img src="./assets/imagens/Poliester.png" width="60px" height="60px" alt="Poliéster">
+                        </div>
+                        <h2>Poliéster</h2>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>Imagem de referência</h3>
+
+                <div class="referencia">
+                    <input class="link-de-referencia" type="link" placeholder="Insira o link">
+                </div>
+
+                    <button class="botao-confirmar">
+                    Confirmar pedido </button>
+            </div>  
+        </div>
+
+        <div class="direita">
+            <img src="./assets/imagens/Ilustração.png" alt="Ilustração">
+        </div>
+    </main>
+
+    <footer>
+
+        <h4> Últimos pedidos </h4>
+
+        <div class="ultimos-pedidos">
+            
+        <div class="pedido">
+            <img src="./assets/imagens/Blusa1.png" alt="agata">
+            <h5>Criador: Agata</h5> 
+        </div>
+        <div class="pedido">
+            <img src="./assets/imagens/Blusa2.png" alt="bruna">
+            <h5>Criador: Bruna</h5>
+        </div>
+        <div class="pedido">
+            <img src="./assets/imagens/Blusa3.png" alt="Camila">
+            <h5>Criador: Camila</h5>
+        </div>
+        <div class="pedido1">
+            <img src="./assets/imagens/Blusa4-1.png" alt="Daniel">
+            <h6>Criador: Daniel</h6>
+        </div>
+        <div class="pedido">
+            <img src="./assets/imagens/Blusa5.png" alt="Ester">
+            <h5>Criador: Ester</h5>
+        </div>
+
+        </div>
+
+    </footer>
+</body>
+</html>
